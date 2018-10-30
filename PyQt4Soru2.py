@@ -37,7 +37,7 @@ class PDHHesapla(QDialog):
         ICTopSay=int(self.icts.text())
         OPSay=(DBPerSay+DSPerSay)/2
         PDH=((ICTopSay+OPSay)/2)*100
-        self.PDH.setText('<b>%0.lf</b>'%PDH)
+        self.PDH.setText('<font color="blue"><b>%0.1f</b></font>'%PDH)
 
 
 app=QApplication([])
