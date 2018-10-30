@@ -4,7 +4,7 @@ from PyQt4.QtCore import*
 class tablo1(QDialog):
 
     def __init__(self,ebeveyn=None):
-        super(tablo1, self).__init__(ebeveyn)
+        super(tablo1,self).__init__(ebeveyn)
         self.initUI()
 
     def initUI(self):
